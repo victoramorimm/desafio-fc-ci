@@ -2,7 +2,7 @@ name: ci-desafio-fc
 on:
   pull_request:
     branches:
-      - develop
+      - main
 jobs:
   run-ci:
     runs-on: ubuntu-latest
